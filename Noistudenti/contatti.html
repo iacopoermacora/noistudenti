@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/noistudenti.css"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  </head>
+  <body>
+<!--Inizio Navbar-->
+<div class="navbar-fixed">
+<nav>
+  <div class="nav-wrapper">
+    <div class="container">
+    <a href="#" class="brand-logo">NoiStudenti</a>
+    <a href="#" data-target="mobile-links" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="progetti.html">Progetti</a></li>
+      <li><a href="foto.html">Foto</a></li>
+      <li><a href="abbigliamento.html">Abbigliamento</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="cogestione.html">Cogestione</a></li>
+      <li><a class="waves-effect waves-light btn" href="login.html">Login</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+       <ul class="sidenav" id="mobile-links">
+         <li><a href="progetti.html">Progetti</a></li>
+         <li><a href="foto.html">Foto</a></li>
+         <li><a href="abbigliamento.html">Abbigliamento</a></li>
+         <li><a href="contatti.html">Contatti</a></li>
+         <li><a href="news.html">News</a></li>
+         <li><a href="cogestione.html">Cogestione</a></li>
+         <li><a class="waves-effect waves-light btn" href="login.html">Login</a></li>
+        </ul>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script>  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  })
+</script>
+
+<!--Fine Navbar-->
+
+<!--Hero inizio-->
+
+<div class="hero_and_content">
+    <section class="hero">
+            <div class="hero-inner">
+                <h1>Contatti</h1>
+            </div>
+        </section>
+  </div>
+
+<!--Hero fine-->
+
+<div class="container">
+  <title>NoiStudenti - Contatti</title>
+
+  <div class="spazio_sotto center">
+    <h1>CONTATTI!</h1>
+    <h6>Ci puoi contattare in un sacco di modi, scegli tu come!</h6>
+  </div>
+
+
+  <div class="row spazietto_sotto">
+      <div class="col s6 m4 l4 center spazio_sotto"><a class="waves-effect waves-light btn-large z-depth-3">Facebook</a></div>
+      <div class="col s6 m4 l4 center spazio_sotto"><a class="waves-effect waves-light btn-large z-depth-3">Instagram</a></div>
+      <div class="col m4 l4 center spazio_sotto hide-on-small-only"><a class="waves-effect waves-light btn-large z-depth-3">E-mail</a></div>
+  </div>
+
+      <div class="row z-depth-3 spazietto_sotto">
+
+        <div class="col s12">
+          <h6 class="spazietto_sotto spazietto_sopra center"><b>Lasciaci un messaggio!</b></h6>
+        </div>
+
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6 offset-s3">
+              <input id="input_text" type="text" data-length="40">
+              <label for="input_text">Il tuo nome</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6 offset-s3">
+              <input id="input_text" type="text" data-length="40">
+              <label for="input_text">Oggetto</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6 offset-s3">
+              <input id="input_text" type="text" data-length="500">
+              <label for="input_text">Descrizione</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6 offset-s3">
+              <input id="input_text" type="text" data-length="30">
+              <label for="input_text">La tua E-mail</label>
+            </div>
+          </div>
+          <div class="row">
+          <div class="col s12 center">
+          <button class="btn waves-effect waves-light btn-large center" type="submit" name="action">Invia
+            <i class="material-icons right">send</i>
+          </button>
+          </div>
+          </div>
+        </form>
+      </div>
+
+      <script>
+      $(document).ready(function() {
+$('input#input_text, textarea#textarea2').characterCounter();
+});
+      </script>
+
+</div>
+
+<!--Footer inizio-->
+<footer class="page-footer">
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Iacopo Ermacora
+            </div>
+          </div>
+        </footer>
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+  </body>
+</html>

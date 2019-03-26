@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/noistudenti.css"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  </head>
+  <body>
+<!--Navbar-->
+<div class="navbar-fixed">
+<nav>
+  <div class="nav-wrapper">
+    <div class="container">
+    <a href="#" class="brand-logo">NoiStudenti</a>
+    <a href="#" data-target="mobile-links" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="progetti.html">Progetti</a></li>
+      <li><a href="foto.html">Foto</a></li>
+      <li><a href="abbigliamento.html">Abbigliamento</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="cogestione.html">Cogestione</a></li>
+      <li><a class="waves-effect waves-light btn" href="login.html">Login</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+       <ul class="sidenav" id="mobile-links">
+         <li><a href="progetti.html">Progetti</a></li>
+         <li><a href="foto.html">Foto</a></li>
+         <li><a href="abbigliamento.html">Abbigliamento</a></li>
+         <li><a href="contatti.html">Contatti</a></li>
+         <li><a href="news.html">News</a></li>
+         <li><a href="cogestione.html">Cogestione</a></li>
+         <li><a class="waves-effect waves-light btn" href="login.html">Login</a></li>
+        </ul>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script>  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  })
+</script>
+
+
+<!--Hero-->
+
+<div class="hero_and_content">
+    <section class="hero">
+            <div class="hero-inner">
+                <h1>Cogestione</h1>
+            </div>
+        </section>
+  </div>
+
+<!--Container-->
+
+<div class="container" style:"margin-bottom: 4em;">
+  <title>NoiStudenti - Cogestione</title>
+
+  <div class="spazietto_sotto center">
+    <h1 class="center">COGESTIONE!</h1>
+    <h6 class="center">Iscriviti qui sotto ai collettivi della cogestione!</h6>
+  </div>
+
+<div class="spazietto_sotto">
+  <nav>
+      <div class="nav-wrapper">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>
+    </nav>
+</div>
+
+<!--Bottoni turni mobile-->
+  <div class="row">
+    <div class="row hide-on-large-only">
+    <p class="hide-on-large-only col s4 m4 right-align"><b>Giorno 1:</b></p>
+    <div class="col s4 m4 center"><a class="waves-effect waves-light btn">T1</a></div>
+    <div class="col s4 m4 left-align"><a class="waves-effect waves-light btn">T2</a></div>
+    </div>
+    <div class="row hide-on-large-only">
+    <p class="hide-on-large-only col s4 m4 right-align"><b>Giorno 2:</b></p>
+    <div class="col s4 m4 center"><a class="waves-effect waves-light btn">T3</a></div>
+    <div class="col s4 m4 left-align"><a class="waves-effect waves-light btn">T4</a></div>
+    </div>
+    <div class="row hide-on-large-only center">
+    <p class="hide-on-large-only col s4 m4 right-align"><b>Giorno 3:</b></p>
+    <div class="col s4 m4 center"><a class="waves-effect waves-light btn">T5</a></div>
+    <div class="col s4 m4 left-align"><a class="waves-effect waves-light btn">T6</a></div>
+  </div>
+
+
+<!--Bottoni turni desktop-->
+<div class="row hide-on-med-and-down">
+  <p class="col l4 center"><b>Giorno 1:</b></p>
+  <p class="col l4 center"><b>Giorno 2:</b></p>
+  <p class="col l4 center"><b>Giorno 3:</b></p>
+</div>
+<div class="row hide-on-med-and-down">
+  <div class="col l2 right-align"><a class="waves-effect waves-light btn">T1</a></div>
+  <div class="col l2 left-align"><a class="waves-effect waves-light btn">T2</a></div>
+  <div class="col l2 right-align"><a class="waves-effect waves-light btn">T3</a></div>
+  <div class="col l2 left-align"><a class="waves-effect waves-light btn">T4</a></div>
+  <div class="col l2 right-align"><a class="waves-effect waves-light btn">T5</a></div>
+  <div class="col l2 left-align"><a class="waves-effect waves-light btn">T6</a></div>
+</div>
+
+<!--Collettivi-->
+
+  <div class="row">
+      <div class="col s12 m12 l4">  <div class="card z-depth-3">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/tema.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Titolo incontro<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Titolo incontro<i class="material-icons right">close</i></span>
+              <p>Descrizione del collettivo</p>
+              <p><b>Ospite: </b></p>
+              <p>Nome ospite</p>
+              <p><b>Referente: </b></p>
+              <p>Nome Referente</p>
+              <p><b>Turni disponibili</b></p>
+              <a class="waves-effect waves-light btn">Iscriviti</a>
+            </div>
+          </div></div>
+      <div class="col s12 m12 l4">  <div class="card z-depth-3">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/tema.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Titolo incontro<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Titolo incontro<i class="material-icons right">close</i></span>
+              <p>Descrizione del collettivo</p>
+              <p><b>Ospite: </b></p>
+              <p>Nome ospite</p>
+              <p><b>Referente: </b></p>
+              <p>Nome Referente</p>
+              <p><b>Turni disponibili</b></p>
+              <a class="waves-effect waves-light btn">Iscriviti</a>
+            </div>
+          </div></div>
+      <div class="col s12 m12 l4">  <div class="card z-depth-3">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/tema.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Titolo incontro<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Titolo incontro<i class="material-icons right">close</i></span>
+              <p>Descrizione del collettivo</p>
+              <p><b>Ospite: </b></p>
+              <p>Nome ospite</p>
+              <p><b>Referente: </b></p>
+              <p>Nome Referente</p>
+              <p><b>Turni disponibili</b></p>
+              <a class="waves-effect waves-light btn">Iscriviti</a>
+            </div>
+          </div></div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m12 l4">  <div class="card z-depth-3">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/tema.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Titolo incontro<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Titolo incontro<i class="material-icons right">close</i></span>
+                <p>Descrizione del collettivo</p>
+                <p><b>Ospite: </b></p>
+                <p>Nome ospite</p>
+                <p><b>Referente: </b></p>
+                <p>Nome Referente</p>
+                <p><b>Turni disponibili</b></p>
+                <a class="waves-effect waves-light btn">Iscriviti</a>
+              </div>
+            </div></div>
+        <div class="col s12 m12 l4">  <div class="card z-depth-3">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/tema.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Titolo incontro<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Titolo incontro<i class="material-icons right">close</i></span>
+                <p>Descrizione del collettivo</p>
+                <p><b>Ospite: </b></p>
+                <p>Nome ospite</p>
+                <p><b>Referente: </b></p>
+                <p>Nome Referente</p>
+                <p><b>Turni disponibili</b></p>
+                <a class="waves-effect waves-light btn">Iscriviti</a>
+              </div>
+            </div></div>
+        <div class="col s12 m12 l4">  <div class="card z-depth-3">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/tema.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Titolo incontro<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Titolo incontro<i class="material-icons right">close</i></span>
+                <p>Descrizione del collettivo</p>
+                <p><b>Ospite: </b></p>
+                <p>Nome ospite</p>
+                <p><b>Referente: </b></p>
+                <p>Nome Referente</p>
+                <p><b>Turni disponibili</b></p>
+                <a class="waves-effect waves-light btn">Iscriviti</a>
+              </div>
+            </div></div>
+      </div>
+
+      <div class="row">
+          <div class="col s12 m12 l4">  <div class="card z-depth-3">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/tema.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Titolo incontro<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Titolo incontro<i class="material-icons right">close</i></span>
+                  <p>Descrizione del collettivo</p>
+                  <p><b>Ospite: </b></p>
+                  <p>Nome ospite</p>
+                  <p><b>Referente: </b></p>
+                  <p>Nome Referente</p>
+                  <p><b>Turni disponibili</b></p>
+                  <a class="waves-effect waves-light btn">Iscriviti</a>
+                </div>
+              </div></div>
+          <div class="col s12 m12 l4">  <div class="card z-depth-3">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/tema.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Titolo incontro<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Titolo incontro<i class="material-icons right">close</i></span>
+                  <p>Descrizione del collettivo</p>
+                  <p><b>Ospite: </b></p>
+                  <p>Nome ospite</p>
+                  <p><b>Referente: </b></p>
+                  <p>Nome Referente</p>
+                  <p><b>Turni disponibili</b></p>
+                  <a class="waves-effect waves-light btn">Iscriviti</a>
+                </div>
+              </div></div>
+          <div class="col s12 m12 l4">  <div class="card z-depth-3">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/tema.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Titolo incontro<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Titolo incontro<i class="material-icons right">close</i></span>
+                  <p>Descrizione del collettivo</p>
+                  <p><b>Ospite: </b></p>
+                  <p>Nome ospite</p>
+                  <p><b>Referente: </b></p>
+                  <p>Nome Referente</p>
+                  <p><b>Turni disponibili</b></p>
+                  <a class="waves-effect waves-light btn">Iscriviti</a>
+                </div>
+              </div></div>
+        </div>
+
+
+
+
+</div>
+</div>
+
+<!--Footer inizio-->
+<footer class="page-footer">
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Iacopo Ermacora
+            </div>
+          </div>
+        </footer>
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+  </body>
+</html>

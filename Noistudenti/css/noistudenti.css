@@ -1,0 +1,104 @@
+.spazio_sotto {
+     padding-bottom: 10vh;
+   }
+
+.spazietto_sotto {
+        padding-bottom: 3vh;
+      }
+
+.spazietto_sopra {
+        padding-top: 5vh;
+      }
+
+.hero_and_content {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("tema.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+@media screen and (min-width: 601px) {
+  section.hero {
+    font-size: 5em;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.hero {
+    font-size: 2em;
+    height: 30vh;
+  }
+}
+
+img {
+  width: 100%; /* need to overwrite inline dimensions */
+  height: auto;
+}
+
+.album-listing {
+  position: relative;
+}
+
+.album-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.album-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.album-title {
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(114, 114, 114, 0.3);
+  color: white;
+
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.album-listing:hover .album-title {
+  opacity: 1;
+}
+
+.album-listing:hover .album-image img {
+  filter: blur(2px);
+}
+
+
+/* for touch screen devices */
+@media (hover: none) {
+  .album-title {
+    opacity: 1;
+  }
+  .album-image img {
+    filter: blur(2px);
+  }
+}
